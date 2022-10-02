@@ -14,38 +14,41 @@
             padding: 0px;
         }
         :root{
-            --cor1: #32A840;
-            --cor2: #9E7AF5;
-            --cor3: #63F573;
-            --cor4: #F7AD63;
-            --cor5: #AD967F;
+            --cor1: #50519E;
+            --cor2: #d0fee7;
+            --cor3: #6F8F5F;
+            --cor4: #5CA83A;
+            --cor5: #159E02;
+            font-size: 23px;
         }
         header{
             height: 38vw;
-            background-color: #63F573;
+            background-color: var(--cor2);
             font-size: 3vw;
             padding-top: 15px;
 
         }
         .bolsonaro{
             font-size: 1vw;
-            background-color: #F7AD63;
+            background-color: var(--cor1);
             border-radius: 16px;
             padding: 5px;
             text-align: center;
 
         }
-        @media (max-width: 1242px) {
+        @media (max-width: 390px) {
             .bolsonaro{
-                font-size: 14px;
+                font-size: 6px;
             }
         }
         header > p{
             padding-left: 5vw;
-            background-color: #F7AD63;
+            background-color: var(--cor1);
             border-radius: 11px;
             width:90%;
             margin: auto;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
         }
         header > div {
             text-align: center;
@@ -59,52 +62,115 @@
         .relativo{
             position: relative;
         }
+        .absolut{
+            position: absolute;
+        }
+        .secret{
+            display: none;
+        }
+        .relativo:hover .secret{
+            display: inline-block;
+            padding: 5px;
+            width: calc(100% + 10px);
+            background-color: rgb(231, 176, 239);
+            left: 0%;
+            top: 100%;
+            border-radius: 20px;
+        }
+        .separador{
+            width: 98.8vw;
+            background-color: var(--cor4);
+            height: 5vw;
+        }
+        main{
+            width: 80vw;
+            display: block;
+            margin: auto;
+            border-radius: 0px 0px 20px 20px;
+            background-color: rgb(195, 255, 163);
+            padding: 7%;
+            margin-bottom: 7vw;
+        }
+        main p{
+            margin-bottom: 20px;
+        }
+        main h2, main h3{
+            margin-bottom: 10px;
+        }
+        main section article {
+            margin-bottom: 7px;
+        }
+        aside{
+        }
     </style>
     <title>Como hormonios afetam as plantas</title>
 </head>
 <body>
-    <header><div><span class="bolsonaro">bolsonaro 2023</span></div><br><p>Alunos: Eric, <span class="relativo"><span class="suspeito">joao viana</span></span> , diana, <br></p></header>
-    <pre>
+    <header><div><span class="bolsonaro">bolsonaro 2023</span></div><br><p>Alunos: diana, Eric, inara, <span class="relativo"><span class="suspeito ">joao viana</span><span class="absolut secret">ah, ele é?<br>sim, ele é.</span></span>, julia. <br></p>
+        <p>turma: INF 241</p>
+        <p>Associação: igreja Ericanista.</p>
+    </header>
+    <hr>
+    <div class="separador"></div>
+    <main>
+        <article>
+            <h1>
+                Sistemas de controle (hormonal)
+            </h1>
+            <p>
+                Os hormônios vegetais ou fitormônios são substâncias produzidas pelas plantas e que atuam na regulação do seu desenvolvimento e crescimento. A função dos hormônios é atuar como "mensageiros químicos" entre células, tecidos e órgãos das plantas superiores. Eles possuem ação mesmo em pequena quantidade.
+            </p>
+            <p>
+                Os hormônios atuam em locais específicos, com objetivo de desencadear uma ação.Geralmente, são conduzidos até ao seu local de atuação pelo xilema e floema. Porém, também podem atuar no mesmo local onde foram produzidos.
+            </p>
 
+            <section>
+                <h2>Os principais hormônios vegetais são: </h2>
+                <article>
+                    <h3>Auxinas</h3>
+                    <p>
+                        As auxinas constituem a primeira classe de hormônios vegetais descoberta.As auxinas são produzidas nas extremidades dos coleóptilos de gramíneas e nas pontas dos caules de diversas plantas. Como também nos meristemas de folhas jovens, de frutos e sementes.De modo geral, atuam no desenvolvimento das gemas laterais, tropismos e no desenvolvimento de frutos.Sua ação característica é o alongamento e expansão celular, promovendo o crescimento de raízes e caules.Porém, essa condição é determinada pela quantidade de hormônio. Em altas concentrações, inibem o alongamento celular.O movimento da auxina é chamado de unipolar, pois é unidirecional, do ápice dos meristemas em direção à base de folhas, caules e pontas de raízes. Esse tipo de transporte requer energia e não é influenciado pela gravidade. O ácido indolacético (AIA) é a auxina natural mais encontrada nos vegetais.
+                    </p>
+                </article>
+                <article>
+                    <h3>
+                        Giberelinas
+                    </h3>
+                    <p>
+                        As giberelinas são produzidas em meristemas apicais do caule e raiz, em folhas jovens, no embrião da semente e nos frutos.A classe das giberelinas controlam vários aspectos do crescimento e desenvolvimento das plantas. Elas atuam no alongamento do caule, no crescimento de raízes e frutos e na germinação de sementes.O embrião da planta jovem produz giberelinas que estimulam a semente a sintetizar enzimas digestivas. Essas enzimas degradam moléculas orgânicas armazenadas no endosperma. Como resultado dessa degradação são liberados açúcares e aminoácidos para o embrião.
+                    </p>
+                </article>
+                <article>
+                    <h3>Citocininas</h3>
+                    <p>
+                        As citocininas são abundantes em locais com grande atividade de proliferação celular, como sementes em germinação, frutos e folhas em desenvolvimento e ponta de raízes.
+                    </p>
+                    <p>
+                        Em associação com auxinas atuam na divisão celular e no controle da dominância apical. Neste caso, sua relação é antagônica, com a auxina inibindo o crescimento de gemas laterais, enquanto a citocinina promove esse crescimento.As citocininas também são responsáveis por retardar o envelhecimento da planta.
+                    </p>
+                </article>
+                <h3>
+                    Etileno
+                <article>
+                    </h3>
+                    <p>O etileno é o único hormônio vegetal gasoso. É um gás incolor. <br>
+                        É produzido em diversas partes da plantas e provavelmente se difunde nos espaços entre as células.</p>
+                </article>
+            </section>
+        </article>
+        <aside>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </pre>
+            
+            fontes:
+            texto informativo: <a href="http://www.todamateria.com.br">www.todamateria.com.br</a><br><br>
+            informações retirada do livro: Biologia Cézar e Sezar (volume único) <br><br>
+            imagens: <a href="http://1.bp.blogspot.com/-t_tZWdIzx_0/VXGtp0Su1yI/AAAAAAAABBU/RAjho7RdCXc/s1600/dfadsfadsdasfadsfasdf.jpg">http://1.bp.blogspot.com/-t_tZWdIzx_0/VXGtp0Su1yI/AAAAAAAABBU/RAjho7RdCXc/s1600/dfadsfadsdasfadsfasdf.jpg</a><br><br>
+            <a href="https://files.passeidireto.com/7263af08-a98b-4a68-90ff-706122108acb/bg1.png">https://files.passeidireto.com/7263af08-a98b-4a68-90ff-706122108acb/bg1.png</a><br><br>
+            <a href="https://static.biologianet.com/conteudo/images/as-citocininas-entre-as-suas-diversas-funcoes-atuam-na-germinacao-das-sementes-5915d8f48a51c.jpg">https://static.biologianet.com/conteudo/images/as-citocininas-entre-as-suas-diversas-funcoes-atuam-na-germinacao-das-sementes-5915d8f48a51c.jpg</a>
+            <a href="https://files.passeidireto.com/7c38bc84-7f7b-497c-8ad7-15a0ed2b8e50/7c38bc84-7f7b-497c-8ad7-15a0ed2b8e50.jpeg.">https://files.passeidireto.com/7c38bc84-7f7b-497c-8ad7-15a0ed2b8e50/7c38bc84-7f7b-497c-8ad7-15a0ed2b8e50.jpeg.</a><br><br>
+            
+        </aside>
+        
+    </main>
 </body>
 </html>
